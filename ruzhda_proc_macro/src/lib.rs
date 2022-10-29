@@ -90,7 +90,7 @@ fn replace_ident(ident: Ident) -> Option<TokenTree> {
         "докато" => "while",
         "използвай" => "use",
         "във" => "into",
-        "" => "true",
+        "истина" => "true",
         "изброяване" => "enum",
 
         _ => &ident_str,
